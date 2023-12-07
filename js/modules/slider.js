@@ -35,7 +35,7 @@ function slider() {
     slider.style.position = 'relative';
 
     const indicators = document.createElement('ol'),
-          dots = [];
+        dots = [];
     indicators.classList.add('carousel-indicators');
     indicators.style.cssText = `
         position: absolute;
@@ -151,4 +151,4 @@ function slider() {
     }
 }
 
-module.exports = slider;
+export default slider;
